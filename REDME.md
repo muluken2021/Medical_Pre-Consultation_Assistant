@@ -50,6 +50,9 @@ This system is considered a **Goal-Based AI Agent** because it does not simply r
 ### Step 1: Patient Interaction (GUI Interface)
 The user interacts with a Tkinter-based graphical interface. The system presents 5 structured medical questions in Amharic.
 
+
+![Step 1](image/step1.png)
+
 ---
 
 ### Step 2: Data Collection
@@ -58,6 +61,8 @@ The patient answers each question one by one using an input field.
 Navigation options:
 - Next button  
 - Back button  
+
+
 
 ---
 
@@ -69,6 +74,7 @@ The agent:
 - Matches them with knowledge base  
 - Selects best condition using urgency scoring  
 
+![Step 1](image/step2.png)
 ---
 
 ### Step 4: Confirmation Stage
@@ -77,6 +83,7 @@ The system shows AI prediction:
 - If user confirms → proceed to report generation  
 - If user rejects → restart questionnaire  
 
+![Step 1](image/step3.png)
 ---
 
 ### Step 5: Report Generation
@@ -85,6 +92,8 @@ The system generates a structured medical report including:
 - Background  
 - Assessment (possible diagnosis)  
 - Recommendation (medication + warnings)  
+
+![Step 1](image/step3.png)
 
 ---
 
